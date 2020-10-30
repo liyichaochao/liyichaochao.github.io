@@ -1,0 +1,101 @@
+.pagination {
+	float: right;
+	border: 1px solid #CDCDCD;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.pagination a {
+	display: block;
+	float: left;
+	
+	text-align: center;
+	text-decoration: none;
+	font-family: Times, 'Times New Roman', Georgia, Palatino; /* ATTN: need a better font stack */
+	
+	outline: none;
+	vertical-align: middle;
+
+	
+
+}
+
+.pagination a:hover, .pagination a:focus, .pagination a:active {
+
+	
+
+}
+
+.pagination a.disabled, .pagination a.disabled:hover, .pagination a.disabled:focus, .pagination a.disabled:active {
+
+
+
+	color: #A8A8A8;
+	
+}
+
+.pagination a:first-child {
+	border-radius: 2px 0 0 2px;
+	-moz-border-radius: 2px 0 0 2px;
+	-webkit-border-radius: 2px 0 0 2px;
+}
+
+.pagination a:last-child {
+	border-radius: 0 2px 2px 0;
+	-moz-border-radius: 0 2px 2px 0;
+	-webkit-border-radius: 0 2px 2px 0;
+}
+
+.pagination a {
+	border-right: 1px solid #CDCDCD; 
+	border-left: 1px solid #CDCDCD;   
+}
+
+.pagination a:first-child {
+	border: none;
+}
+
+.pagination a:last-child {
+	border: none;
+}
+
+.pagination input {
+	border: none;
+	float: left;
+	text-align: center;
+	height: 10px;
+	outline: none;
+	vertical-align: middle;
+	width: 50px;
+	padding: 0;
+	margin: 0;
+}
+
+/* gigantic class for demo purposes */
+
+.gigantic.pagination {
+	margin: 30px 0;
+}
+
+.gigantic.pagination a {
+	height: 20px;
+	width: 20px;
+	font-size: 20px;
+	line-height: 20px;
+}
+
+.gigantic.pagination input {
+	
+
+    border: 1px solid #666666;
+
+    background: #393939 url(images/tpl_input_bg.gif) no-repeat top left;
+font: bold 13px Arial, Helvetica, sans-serif;
+   
+	color: #ccc;
+	width: 100px;
+	height: 20px;
+	
+}
+

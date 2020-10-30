@@ -1,0 +1,4191 @@
+/* Global Settings */
+
+
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+}
+html, body {
+
+    margin: 0px;
+
+    padding: 0px;
+    text-align: center;
+
+    font: normal 12px  Arial, Helvetica, sans-serif;
+
+     
+
+    color:#ffffff;
+	
+	background: #111111;
+
+    
+
+}
+
+
+
+h1, h2, h3, h4 {
+
+    font-size: 100%;
+
+}
+
+input.checkbox {
+
+    border: 1px solid #bdac85;
+
+}
+
+a {
+
+/*  color: #333333; */
+
+    color: #ffba00;
+
+    text-decoration: none;
+
+}
+
+
+
+a:hover {
+
+    color: #ffffff;
+
+    text-decoration: none;
+	
+    /*border-bottom: 1px dotted #333333;*/
+
+}
+
+#othervideo a img, .groupthumb a img,#small-rightbox a img {
+
+    border: 0;
+
+}
+
+.relatedvideothumb a img {
+
+    padding: 2px;
+
+    border: 1px solid #EAEAEA;
+
+}
+
+/*
+
+a:link, a:visited {
+
+    color: #00e5ff;
+
+    text-decoration: none;
+
+    border: none;
+
+}
+
+*/
+
+.clear {
+
+    clear: both;
+
+}
+
+form {
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+
+
+fieldset {
+
+    margin: 1em 0;
+
+    border: none;
+
+}
+
+
+
+legend {
+
+    margin: 1em 0;
+
+    padding: 0 .5em;
+
+    background: transparent;
+
+    font-size: 19px;
+
+    font-weight: normal;
+	
+	color:#ffba00;
+	
+	letter-spacing: -1px;
+
+}
+
+
+
+input.fullboxtext {
+
+    margin: 0 0 10px 0;
+
+    padding: 3px;
+
+    border: 1px solid #666666;
+
+    background: #393939 url(/images/tpl_input_bg.gif) no-repeat top left;
+
+    font: normal 12px  Arial, Helvetica, sans-serif;
+
+	color: #ccc;
+
+    width: 250px;
+
+    height: 15px;
+
+}
+input.page_number {
+
+    margin: 0 0 10px 0;
+
+    padding: 3px;
+
+    border: 1px solid #666666;
+
+    background: #393939 url(/images/tpl_input_bg.gif) no-repeat top left;
+
+    font: normal 12px  Arial, Helvetica, sans-serif;
+
+	color: #ccc;
+
+    width: 40px;
+
+    height: 23px;
+
+}
+textarea.fullboxtext{
+
+    margin: 0 0 10px 0;
+
+    padding: 3px;
+
+    border: 1px solid #666666;
+
+	
+	color: #ccc;
+
+    font: normal 12px  Arial, Helvetica, sans-serif;
+
+    width: 300px;   
+
+}
+
+/* End Of Global Settings */
+
+
+
+/* Clip Share Logo */
+
+
+
+#head {
+
+    margin: 0px auto;
+
+    padding: 0px;
+
+    width: 728px;
+    text-align: center;
+    
+	
+}
+
+
+
+#head h1 {
+
+    margin: 30px 30px 0px 0px;
+
+    padding: 0px;
+
+    background: transparent url(/images/logo.png) no-repeat;
+
+    text-indent: -9999px;
+
+    float: left;
+   text-align: center;
+    display: inline;
+
+}
+
+
+
+#head h1 a.logo {
+
+    display: block;
+
+    width: 127px;
+
+    height: 49px;
+
+    border: none;
+
+}
+
+
+
+#head h2 {
+
+    margin: 48px 0 0 10px;
+
+    padding: 0px;
+
+    font: normal 13px  Arial, Helvetica, sans-serif;
+
+    color: #303030;
+
+    float: left;
+
+}
+
+
+
+#head h3 {
+
+    margin: 48px 0 0 30px;
+	
+	font: normal 13px  Arial, Helvetica, sans-serif;
+
+    padding: 0px;
+
+    float: right;
+
+}
+
+
+
+/* End of Clip Share Logo */
+
+
+
+/* Clip Share Navigation */
+
+
+
+#headnav {
+
+    margin: 10px auto;
+
+    padding: 0px;
+
+    text-align: center;
+
+    width: 100%;
+
+}
+
+
+
+#navbar {
+
+    width: 100%;
+
+    background: url(/images/tpl_navbar_bg.gif) repeat-x;
+
+    height: 75px;
+
+}
+
+
+
+#navsubbar {
+
+    width: 100%;
+
+    background: url(/images/tpl_subnavbar_bg.gif) repeat-x;
+
+    height: 25px;
+	
+	line-height: 20px;
+	  text-align: center;
+	
+}
+
+
+#navcontainer {
+
+    position: relative;
+
+    top: 2px;
+
+    width: 850px;   
+
+    margin: 0px auto;   
+  text-align: center;
+}
+
+
+
+#navcontainer ul {
+
+    margin:0;
+
+    padding: 0;
+
+    list-style-type: none;
+
+    text-align: center;
+
+    font: bold 12px/27px Arial, Helvetica, sans-serif;
+
+}
+
+
+
+#navcontainer li {
+
+    display:inline;
+
+    margin:0;
+
+    padding:0;
+
+}
+
+
+
+#navcontainer a {
+
+    float: left;
+
+    display: block;
+
+    width: 103px;
+
+    height: 27px;
+
+    margin-right: 1px;
+
+}
+
+
+
+#navcontainer a:link, #navcontainer a:visited {
+
+    float: left;
+
+    background: url(/images/tpl_navbar_btn.gif) no-repeat left top;
+
+    background-position:0% -27px;
+
+    color: #474038;
+
+    text-decoration: none;
+
+}
+
+
+
+#navcontainer a:hover {
+
+    float: left;
+
+    background: url(/images/tpl_navbar_btn.gif) no-repeat left top;
+
+    background-position:0% -54px;
+
+    color: #5F564B;
+
+    text-decoration: none;
+
+    line-height: 27px;
+
+}
+
+
+
+#navcontainer li a#currentTab {
+
+    float: left;
+
+    background: url(/images/tpl_navbar_btn.gif) no-repeat left top;
+
+    background-position:0% 0px;
+
+    color: #ffffff;
+
+    text-decoration: none;
+
+    line-height: 27px;
+}
+
+
+
+#navsubbar p {
+
+    margin: 0px auto;
+
+    padding: 2px 0;
+
+    text-indent: 20px;
+
+    width: 730px;
+
+    color: #ffffff;
+
+    text-align: left;
+
+}
+
+
+
+#navsubbar p a {
+
+    margin: 0px 7px;
+
+    color: #ffffff;
+
+}
+
+
+
+/* End of Clip Share Navigation */
+
+    /* GENERAL CONTAINER */
+
+#container {
+
+    margin: 0px auto;
+
+    padding: 0px;
+
+    width: 860px;
+
+    text-align: center;
+
+}
+
+#container_video {
+
+    margin: 0px auto;
+
+    padding: 0px;
+
+  width: 100%;
+
+    text-align: center;
+
+}
+
+
+#leftside {
+
+    margin: 0px;
+
+    padding: 0px;
+
+    width: 500px;
+
+    text-align: left;
+
+    float: left;
+
+}
+#hd_video {
+
+    margin: 0px;
+
+    padding: 0px;
+
+    width: 728px;
+
+    text-align: left;
+
+    float: left;
+
+}
+#fullside {
+
+    margin: 0px;
+
+    padding: 0px;
+
+    width: 728px;
+
+    text-align: left;
+
+}
+
+
+
+#login-title, #statistic-title, #online-title,#vote-title,#populartags-title,
+
+#adv-title, #latestvideo-title, #profiledetail-title, 
+
+#recenttags-title, #userinfo-title, #mediumbox-title, 
+
+#recently-title, #fullbox-title, #myprofile-title,#invitefriend-title,#invitenewfriend-title, 
+
+#mostactive-title, #topwatched-title, #signup-title, #viewvideo-title,
+
+#bookmark-title, #videocomment-title, #othervideo-title, #relatedvideo-title, 
+
+#relatedtag-title,#recently-added-title,#browsegroup-title, #smallbox-title,
+
+#videodetails-title, #sharedetails-title, #myvideo-title, #myfriends-title,
+
+#groups-title, #groupforum-title, #grouprecentvideo-title,#small-rightbox-title  {
+
+    height: 25px;
+
+    padding-left: 10px;
+
+    background: url("/images/tpl_box_bar.png") repeat-x;
+
+    font: normal 16px/22px  Arial, Helvetica, sans-serif;
+
+    letter-spacing: -1px;
+ 
+    color:#fff;
+	
+
+}
+
+#small-rightbox-title-small{
+
+    height: 25px;
+
+    padding-left: 10px;
+
+    background: url("/images/tpl_box_bar.png") repeat-x;
+
+    font: normal 15px/23px  Arial, Helvetica, sans-serif;
+
+    letter-spacing: -1px;
+
+    color:#FFFFFF;
+
+}  
+
+#populartags-content, #recenttags-content, #relatedtag-content {
+    padding:10px;
+
+    margin-top: 2px;
+
+    background: url("/images/tpl_box_shading2.png") repeat-x;
+	
+	text-align: justify;
+	
+}
+
+#login-content, #statistic-content, #adv-content, #online-content,
+
+#latestvideo-content, #profiledetail-content, #vote-content, 
+
+#userinfo-content, #mediumbox-content, #fullbox-content,#invitefriend-content,#invitenewfriend-content,
+
+#myprofile-content, #signup-content, #viewvideo-content, #relatedvideo-content, 
+
+#browsegroup-content, #smallbox-content, #videodetails-content, #sharedetails-content, 
+
+#groupforum-content, #grouprecentvideo-content,#small-rightbox-content {
+
+    padding:10px;
+
+    margin-top: 2px;
+    font-size: 12px;
+
+    background: url("/images/tpl_box_shading2.png") repeat-x;
+
+}
+
+#recently-content, #bookmark-content, #othervideo-content, #mostactive-content, #topwatched-content,
+
+#recently-added-content {
+
+    padding:10px;
+
+    margin-top: 2px;
+	
+	background:transparent url("/images/tpl_box_shading2.png") repeat-x;
+
+}
+
+#videocomment-content, #myvideo-content, #myfriends-content, #groups-content {
+
+	background:transparent url("/images/tpl_box_shading2.png") repeat-x;
+
+	margin-top:2px;
+
+	padding: 0 0 20px 0;
+
+}
+
+
+/* End of GENERAL CONTAINER Clipshare */
+
+#small-rightbox-content span.title {
+
+	font: normal 13px  Arial, Helvetica, sans-serif;
+
+}
+
+#small-rightbox-content span.duration {
+
+	font: bold 12px Arial, Helvetica, sans-serif;
+
+}
+
+#small-rightbox-content span.info {
+
+	color: #888888;
+	
+	font-size: 12px;
+
+}
+
+#small-rightbox-content span.tags {
+
+	text-decoration: none;
+	font-weight: normal;
+	border-bottom:dotted 1px #aaaaaa;
+
+}
+	
+/* Clip Share Search */
+
+#containersearch{
+
+    margin: 0 0 10px 0;
+
+    position: relative;
+
+    display: block;
+
+    width:100%;
+
+ 
+
+}
+
+#search {
+
+    width:496px;
+
+    text-align: right;
+
+    
+
+}
+
+
+
+#search form p {
+
+    margin: 0px;
+
+    padding: 0px;
+
+}
+
+
+
+#search form input.text, #search form select {
+
+	margin: 0 0 0 0;
+
+    border: 1px solid #666666;
+
+    background: #393939 url(/images/tpl_input_bg.gif) no-repeat top left;
+
+    font: normal 14px  Arial, Helvetica, sans-serif;
+
+	color: #ccc;
+	
+}
+
+
+
+#search form input.text {
+
+    width: 200px;
+
+    padding: 3px;
+
+}
+
+
+
+#search form select {
+
+    width: 130px;
+
+    padding: 2px;
+
+}
+
+
+
+#search form input.button {
+
+    margin: -7px 0 0 0;
+
+    padding: 0px;
+
+    vertical-align: middle;
+
+}
+
+
+
+/* End of Clip Share Search */
+
+
+
+/* Clip Share Banner */
+
+
+
+#banner {
+
+    margin: 0 0 10px 0;
+
+    padding: 0px;
+
+    width: 500px;
+
+    background: transparent url(/images/tpl_banner_bg.gif) repeat-x top;
+
+    border: 1px solid #333333;
+
+    height: 208px;
+
+}
+
+
+
+/* * html #banner {
+
+    margin: -10px 0 10px 0;
+
+} */
+
+
+
+.feature {
+
+    margin: 10px 0 0 15px;
+
+    padding: 5px;
+
+    float: left;
+
+    width: 136px;
+
+    display: inline;
+	
+
+} 
+
+
+
+.feature h3 {
+
+    margin: 0px;
+
+    padding: 0px;
+
+    font: normal 30px  Arial, Helvetica, sans-serif;
+
+    color: #ffba00;
+
+    letter-spacing: -2px;
+
+}
+
+
+
+.feature p {
+
+    margin: 0px;
+
+    padding: 0px;
+
+}
+
+
+
+.feature p img {
+
+    margin: 5px;
+
+    padding: 0px;
+
+    display: block;
+
+}
+
+
+
+/* Clip Share left side */
+
+#recently, #userinfo, #mediumbox, #mostactive, #topwatched, 
+
+#signup,#browsegroup, #viewvideo, #recently-added,
+
+#myvideo, #myfriends, #groups ,#bookmark, #videodetails, #sharedetails, #videocomment {
+
+    display:block;
+
+    max-width:496px;
+
+    padding:2px;
+    font-size: 12px;
+
+    background: #111111;
+
+    border: 1px solid #2f2f2f;
+
+    margin-bottom: 10px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+}
+
+
+
+#mostactive img.thumb, #topwatched img.thumb,#recently-added img.thumb{
+
+    width:120px;
+
+    height:90px;
+
+}
+
+
+
+
+
+#useraction {
+
+    display:block;
+
+    width:450px;
+
+    padding:2px;
+
+    background: #161616;
+
+    border: 1px solid #333333;
+
+    margin-bottom: 20px;
+
+    margin-left:20px;
+    font-size: 12px;
+
+}
+
+#useraction span.info {
+
+	color: #888888;
+	  font-size: 12px;
+
+}
+
+#bookmark ul{
+
+    margin-left: 20px;
+
+    padding: 0;
+
+}
+
+* html #bookmark ul{
+
+    margin-left: 0;
+
+    padding: 0;
+
+}
+
+#useraction p {
+
+    float: left;
+
+    margin: 20px;
+
+}
+
+.arrow-general {
+
+    margin: 0px;
+
+    padding: 0px;
+
+    height: 9px;
+
+    background: transparent url(/images/tpl_box_arrow.gif) no-repeat top left;
+
+    position: relative;
+
+    top: -12px;
+
+    left: -10px;
+
+}
+
+#videocomment .arrow-general
+
+{
+
+    margin: 0px;
+
+    padding: 0px;
+
+    height: 9px;
+
+    background: transparent url(/images/tpl_box_arrow.gif) no-repeat top left;
+
+    position: relative;
+
+    top: -2px; 
+
+    left: 0; 
+
+}
+
+/*#groupforum .arrow-general {
+
+    margin: 0px;
+
+    padding: 0px;
+
+    height: 9px;
+
+    background: transparent url(/images/tpl_box_arrow.gif) no-repeat top left;
+
+    position: relative;
+
+    top: -12px; 
+
+    left: 0;
+
+}*/
+
+#myvideo .arrow-general, #myfriends .arrow-general, #groups .arrow-general {
+
+    margin: 0px;
+
+    padding: 0px;
+
+    height: 9px;
+
+    background: transparent url(/images/tpl_box_arrow.gif) no-repeat top left;
+
+    position: relative;
+
+    top: -2px; 
+
+    left: 0; 
+
+}
+
+#online .arrow-general {
+
+    margin: 0px;
+
+    padding: 0px;
+
+    height: 9px;
+
+    background: transparent url(/images/tpl_box_arrow.gif) no-repeat top left;
+
+    position: relative;
+
+    top: -12px; 
+
+    left: 0; 
+
+}
+
+#recently a img.right {
+
+    margin: 35px 0px 0px 0px;
+
+    padding: 0px;
+
+    border: 0px solid #bbbfaf;
+
+    float: left;
+
+}
+
+#recently a img.left {
+
+    margin: 35px -4px 0px 8px;
+
+    padding: 0px;
+
+    border: 0px solid #bbbfaf;
+
+    float: left;
+
+}
+
+
+
+.viewed {
+
+    margin: 10px 9px 0 12px;
+
+    padding: 0 0 30px 0;
+
+    float: left;
+
+    width: 80px;
+
+    /*width: 100px;*/
+
+    display: inline;
+
+}
+
+
+
+.viewed a {
+
+    border: none;
+
+    text-decoration: none;
+
+}
+
+
+
+.viewed a img.image {
+
+    margin: 0 0 15px 0;
+
+    padding: 0px;
+
+    border: 1px solid #bbbfaf;
+
+    display: block;
+
+}
+
+
+
+.viewed p {
+
+    margin: 0px;
+
+    padding: 0px;
+
+    text-align: center;
+
+}
+
+
+
+.viewed p span {
+
+    display: block;
+
+    font-size: 10px;
+
+}
+
+
+
+/* End of Clip Share Recently */
+
+
+
+/* Clip Share Sub Tab Menu */
+
+
+
+#submenu {
+
+    margin: 0px;
+
+    padding: 0px;
+
+    /* width: 500px; */
+
+}
+
+
+
+#tabmenucontainer {
+
+    margin: 0px;
+
+    padding: 0px;
+
+    position: relative;
+
+    top: 15px;
+
+    /* width: 375px; */
+
+}
+
+
+
+#tabmenucontainer ul {
+
+    margin: 0px;
+
+    padding: 0px;
+
+    list-style-type: none;
+
+    text-align: center;
+
+    font: normal 14px/24px  Arial, Helvetica, sans-serif;
+
+}
+
+
+
+#tabmenucontainer li {
+
+    display: inline;
+
+    margin: 0px;
+
+    padding: 0px;
+
+    text-indent: -7px;
+
+}
+
+
+
+#tabmenucontainer a {
+
+    float: left;
+
+    display: block;
+
+    width: 125px;
+
+    height: 25px;
+
+    color: #ffffff;
+
+    border: none;
+
+    text-decoration: none;
+
+}
+
+
+
+#tabmenucontainer a:link, #tabmenucontainer a:visited, #tabmenucontainer a:hover, #tabmenucontainer li a.tabactive {
+
+    float: left;
+
+    background: transparent url(/images/tpl_tabs_btn.gif) no-repeat left top;
+
+    background-position: 0% -25px;
+
+}
+
+
+
+#tabmenucontainer a:link, #tabmenucontainer a:visited {
+
+    background-position: 0% -25px;
+
+}
+
+
+
+#tabmenucontainer ul li.tabactive {
+
+    background: transparent url(/images/tpl_tabs_btn.gif) no-repeat left top;
+
+    background-position: 0% 0px;
+
+    line-height: 24px;
+
+}
+
+
+
+#tabmenucontainer a:hover {
+
+    background-position: 0% -50px;
+
+    line-height: 24px;
+
+}
+
+ 
+
+
+
+#tabmenucontainer li a.tabactive {
+
+    background-position: 0% 0px;
+
+    line-height: 24px;
+
+}
+
+
+
+#subcontent {
+
+    margin: 15px 0 0 0;
+
+    padding: 0px;
+
+    /* background: transparent url(/images/tpl_box_shading2.png) repeat-x; */
+
+    border: 1px solid #333333;
+
+    /* width: 500px; */
+
+}
+
+
+
+#subcontent p{
+
+    margin: 0px;
+
+    padding: 10px;
+
+    float: left;
+
+    display: block;
+
+    width: 480px;
+	
+	font: normal 12px  Arial, Helvetica, sans-serif;
+
+}
+
+#subcontent p.blue {
+
+    margin: 0;
+
+    padding: 10px;
+
+    float: left;
+
+    display: block;
+
+    background: #161616;
+
+    width: 480px;
+	
+	font: normal 12px  Arial, Helvetica, sans-serif;
+
+}
+
+#subcontent span.title {
+
+	font: normal 14px  Arial, Helvetica, sans-serif;
+
+}
+
+#subcontent span.duration {
+
+	font: bold 12px Arial, Helvetica, sans-serif;
+
+}
+
+#subcontent span.info {
+
+	color: #888888;
+	  font-size: 12px;
+
+}
+
+#subcontent span.tags {
+
+	text-decoration: none;
+	font-weight: normal;
+	border-bottom:dotted 1px #888888;
+	  font-size: 12px;
+
+}
+
+#subcontent p a img {
+
+    margin: 0 20px 0 0;
+
+    padding: 1px;
+
+    text-decoration: none;
+
+    border: 1px solid #333333;
+
+    float: left;
+
+}
+
+.comment {
+
+    margin: 0;
+
+    padding: 0;
+
+    float: left;
+
+    display: block;
+
+    border-bottom: 1px solid #eaeaea;
+
+    width: 477px;
+
+}
+
+.comment p a img {
+
+    margin: 0 20px 10px 0;
+
+    padding: 0px;
+
+    text-decoration: none;
+
+    border: 1px solid #bbbfaf;
+
+    float: left;
+
+}
+
+
+
+.blue {
+
+    background: #2d2a2a;
+
+}
+
+.selectedvideo {
+
+    background: #262626;
+
+}
+
+/* End of Clip Share Sub Tab Menu */
+
+
+
+/* Content Styling */
+
+.contentbox {
+
+    margin: 10px;
+
+}
+
+.firstdefinition {
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+}
+
+.txturgent {
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+}
+
+.txtsignup {
+
+    color: #ffba00;
+
+}
+
+p.txturgent a {
+
+    color: #ffba00;
+
+}
+
+.txtcontent a {
+
+    text-decoration:underline
+
+}
+
+.hellomessage {
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+}
+
+.imgprofile {
+
+    margin: 10px 0 0 0;
+
+}
+
+.profileinfo {
+
+    margin: 10px 5px 0 0;
+
+}
+
+.pictprofile {
+
+    text-align: center;
+
+}
+
+.mypict {
+
+    width: 52px;
+
+    margin: 10px;
+
+    float: left;
+
+    display: block;
+
+}
+
+.userprofile {
+
+    width: 150px;
+
+    width: 130px;
+
+    margin-left: 80px;
+
+
+
+}
+
+#bookmarklist{
+
+    margin: 0 auto;
+
+    text-align: center;
+	
+}
+
+#bookmarklist li {
+
+    list-style-type: none;
+
+    margin: 0 20px 20px 0;
+
+    float: left;
+
+}
+
+.strongtext {
+
+    font: bold 14px  Arial, Helvetica, sans-serif;
+
+}
+
+.ratingDiv,.boxPart {
+
+    margin: 5px 0;
+
+    text-align: center;
+	
+	padding-bottom: 7px;
+
+    border-bottom: 1px solid #333333;
+	
+	font-size: 12px;
+
+} 
+
+.relatedvideolist {
+
+    margin: 0 0 20px 0;
+	
+	padding-top: 5px;
+	font-size: 12px;
+	padding-bottom: 5px;
+	
+}
+
+/* End Content Styling */
+
+
+
+/* Right Side */
+
+
+
+#rightside {
+
+    margin: 0px;
+
+    margin-right: 10px;
+
+    padding: 0px;
+
+    width: 315px;
+
+    text-align: left;
+
+    float: right;
+
+}
+
+
+
+#login, #statistic, #online,#vote, #adv, #latestvideo, #populartags,
+
+#profiledetail, #recenttags, #othervideo, #relatedvideo,
+
+#relatedtag,#small-rightbox {
+
+    display:block;
+
+    max-width:315px;
+
+    padding:2px;
+
+    background: #111111;
+
+    border: 1px solid #2f2f2f;
+
+}
+
+#groupforum, #grouprecentvideo {
+
+    display:block;
+
+    width:700px;
+
+    padding:2px;
+
+    background: #111111;
+
+    border: 1px solid #2f2f2f;
+
+}
+
+#login-nosearch, #recenttags-nosearch, #othervideo-nosearch{
+
+    display:block;
+
+    width:213px;
+
+    padding:2px;
+
+    background: #111111;
+
+    border: 1px solid #2f2f2f;
+
+}
+
+
+
+#login form {
+
+    margin: 2px;
+
+    padding: 0px;
+
+}
+
+
+
+#login form p {
+
+    margin: 0px;
+
+    padding: 0px;
+
+    font: normal 12px  Arial, Helvetica, sans-serif;
+
+    color: #ffffff;
+
+}
+
+#login form a {
+
+    font: normal 12px  Arial, Helvetica, sans-serif;
+
+}
+
+
+
+#login form p input.logintext {
+
+    margin: 0 0 5px 0;
+
+    padding: 2px;
+
+    border: 1px solid #666666;
+
+    background: #393939 url(/images/tpl_input_bg.gif) no-repeat top left;
+
+    font: normal 12px  Arial, Helvetica, sans-serif;
+
+	color: #ccc;
+
+    width: 180px;
+
+}
+
+
+
+#login form p input.loginbutton {
+
+    margin: 15px 0 0 0;
+
+    padding: 0px; 
+
+}
+
+
+#login, #recenttags, #othervideo,#small-rightbox {
+
+    margin: 0px 0 0 5px;
+
+    margin-bottom:10px;
+
+}
+
+
+
+#small-rightbox-content textarea.fullboxtext{
+
+    width:250px;
+
+}
+
+
+
+#login-nosearch, #recenttags-nosearch, #othervideo-nosearch{
+
+    margin: 0px 0 0 5px;
+
+}
+
+
+
+#latestvideo {
+
+    margin: 37px 0 0 5px;
+
+}
+
+
+
+#profiledetail {
+
+    margin: 37px 0 0 5px;
+
+}
+
+
+
+#statistic {
+
+    margin: 10px 0 0 5px;
+
+    /*height: 230px;*/
+
+}
+
+
+
+#online {
+
+    margin: 10px 0 0 5px;
+
+    /*height: 330px;*/
+
+}
+
+
+
+#populartags{
+
+    margin: 10px 0 0 5px;
+
+}
+
+
+
+#vote{
+
+    margin: 10px 0 0 5px;
+
+}
+
+
+
+#adv {
+
+    margin: 10px 0 0 5px;
+
+    /*height: 232px;*/
+
+}
+
+
+
+#recenttags p {
+
+    text-align: center;
+
+    margin: 0 10px;
+
+    padding-bottom: 20px;
+
+}
+
+#latestvideo p {
+
+    text-align: center;
+
+}
+
+
+
+#statistic span {
+
+    margin: 20px 10px;
+
+    padding: 0 0 0 25px;
+
+}
+
+
+
+#statistic span.public {
+
+    background: transparent url(/images/tpl_icon_public.gif) no-repeat;
+
+}
+
+
+
+#statistic span.private {
+
+    background: transparent url(/images/tpl_icon_private.gif) no-repeat;
+
+}
+
+
+
+#statistic span.member {
+
+    background: transparent url(/images/tpl_icon_member.gif) no-repeat;
+
+}
+
+#statistic span.watch {
+
+    background: transparent url(/images/tpl_icon_watched.gif) no-repeat;
+
+}
+
+
+
+#statistic span.visitors {
+
+    background: transparent url(/images/tpl_icon_visitors.gif) no-repeat;
+
+}
+
+#statistic font.info {
+
+   color: #888888;
+     font-size: 12px;
+
+}
+
+
+
+#online p {
+
+    margin: 0px 5px;
+
+    padding: 0px;
+	
+	font-size: 14px;
+
+}
+
+
+
+#online p span {
+
+    margin: 5px 10px 0 0;
+
+    padding: 0 0 0 18px;
+
+    font-weight: normal;
+	
+	font-size: 12px;
+
+}
+
+
+
+#online p span.video {
+
+    background: transparent url(/images/tpl_icon_video.gif) no-repeat;
+
+}
+
+
+
+#online p span.flag {
+
+    background: transparent url(/images/tpl_icon_flag.gif) no-repeat;
+
+}
+
+
+
+#online p span.people {
+
+    background: transparent url(/images/tpl_icon_people.gif) no-repeat;
+
+}
+
+
+
+#adv p {
+
+    text-align: center;
+
+}
+
+
+
+#adv a img {
+
+    margin: 0px auto;
+
+    padding: 0px;
+
+    border: none;
+
+    text-decoration: none;
+
+    vertical-align: middle;
+
+}
+
+
+
+/* Right Side */
+
+
+
+/* Clip Share Rich Footer */
+
+
+
+#richfooter {
+
+    margin: 20px auto 0px;
+
+    padding: 0px;
+
+    background: #181818;
+
+}
+
+
+
+#richcontainer {
+
+    margin: 0px auto;
+
+    padding: 0px;
+
+    width: 730px;
+
+    text-align: center;
+
+}
+
+
+
+#news, #channel, #tags {
+
+    margin: 20px 20px 0px 5px;
+
+    padding: 0 0 30px 0;
+
+    text-align: left;
+
+    width: 210px;
+
+    color: #e0e0e0;
+
+    float: left;
+
+}
+
+
+
+#news h3, #channel h3, #tags h3 {
+
+    margin: 0 0 10px 0;
+
+    padding: 0px;
+
+    font: normal 20px  Arial, Helvetica, sans-serif;
+
+    color: #ffba00;
+
+}
+
+
+
+#news p, #channel p {
+
+    margin: 0px;
+
+    padding: 5px;
+
+    border-top: 1px dotted #888888;
+      font-size: 12px;
+
+    display: block;
+
+}
+
+#tags p {
+
+    margin: 0px;
+
+    padding: 0px;
+	
+	padding-top: 5px;
+
+    border-top: 1px dotted #888888;
+      font-size: 12px;
+	
+	text-align: justify;
+
+    display: block;
+
+}
+
+
+
+#news p:hover, #channel p:hover {
+
+    background: #222222;
+	
+}
+
+
+
+#news p a, #channel p a {
+
+
+    text-decoration: none;
+
+    color: #ccc;
+
+}
+
+
+
+#news p a:hover, #channel p a:hover {
+
+    color: #ffba00;
+
+}
+
+#news img, #channel img {
+
+padding: 1px;
+
+}
+
+#tags p a {
+
+    border: none;
+
+    text-decoration: none;
+
+    color: #aaa;
+
+}
+
+
+
+#tags p a:hover {
+
+    color: #ffffff;
+
+}
+
+
+
+#tags p.semore {
+
+    float: right;
+
+    border: none;
+
+}
+
+
+
+/* End of Clip Share Rich Footer */
+
+
+
+/* Clip Share Footer */
+
+
+
+#footer {
+
+    margin: 0px auto;
+
+    padding: 10px;
+
+    background: url(/images/tpl_footer_bg.png) repeat-x;
+
+}
+
+
+
+#footcontainer {
+
+    margin: 0px auto;
+
+    padding: 0px;
+
+    width: 730px;
+
+    text-align: left;
+
+}
+
+
+
+#footcontainer p {
+
+    margin: 0 10px;
+
+    padding: 0px;
+
+    color: #888888;
+      font-size: 12px;
+
+}
+
+
+
+#footcontainer p a {
+
+    margin: 0px;
+
+    border: none;
+
+    text-decoration: none;
+
+    color: #cccccc;
+
+}
+
+
+
+#footcontainer p a:hover {
+
+    border-bottom: 1px dotted #888888;
+	
+	color: #ffba00;
+
+}
+
+
+
+#footcontainer p a img.rss {
+
+    border: none;
+
+    text-decoration: none;
+
+}
+
+
+
+/* Clip Share Medium Box */
+
+/*
+
+#mediumbox {
+
+    margin: 0;
+
+    padding: 0;
+
+    background: transparent url(/images/bg_main_box.jpg) repeat-x; 
+
+    border: 1px solid #eaeaea;
+
+
+
+}
+
+#mediumbox h3 {
+
+    margin: 0px;
+
+    padding: 0 0 0 5px;
+
+    background: transparent url(/images/recently_bar.gif) no-repeat top;
+
+    color: #ffffff;
+
+    font: normal 19px  Arial, Helvetica, sans-serif;
+
+    letter-spacing: -1px;
+
+    height: 38px;
+
+}
+
+*/
+
+/* End Clip Share Medium Box */
+
+
+
+/* Clip Share Full Box */
+
+#fullbox,#invitefriend,#invitenewfriend{
+
+    display:block;
+
+    width:726px;
+
+    padding:2px;
+
+    background: #111111;
+
+    border: 1px solid #2f2f2f;
+
+    text-align: left;
+
+}
+
+
+
+#fullbox label,#invitefriend label,#invitenewfriend label {
+
+    font-weight: bold;
+
+}
+
+#fullbox form input.inputtext,#invitefriend form input.inputtype,#invitenewfriend form input.inputtype  {
+
+	margin: 0 0 5px 0;
+
+    padding: 2px;
+
+    border: 1px solid #666666;
+
+    background: #393939 url(/images/tpl_input_bg.gif) no-repeat top left;
+
+    font: normal 12px  Arial, Helvetica, sans-serif;
+
+	color: #ccc;
+
+    width: 300px;
+	
+}
+
+
+
+
+
+#fullbox form p input.submitbutton,#invitefriend form p input.submitbutton,#invitenewfriend form p input.submitbutton {
+
+    margin: 5px 0 0 0;
+
+}
+
+
+
+#fullbox div.fm-req,#fullbox div.fm-opt,
+
+#invitefriend div.fm-req,#invitenewfriend div.fm-req,
+
+#invitefriend div.fm-opt,#invitenewfriend div.fm-opt{
+
+    
+
+}
+
+
+
+#fullbox div.fm-req label:before,
+
+#invitefriend div.fm-req label:before,
+
+#invitenewfriend div.fm-req label:before{
+
+    content: "* "; /* does not work in IE */
+
+    color: #CC0000;
+
+    font-weight: bold;
+
+}
+
+
+
+#fullbox div.fm-opt label:before,
+
+#invitefriend div.fm-opt label:before,
+
+#invitenewfriend div.fm-opt label:before{
+
+    color: #CC0000;
+
+}
+
+ 
+
+
+
+.submitbutton {
+
+    margin-left: 150px;
+
+    padding : 10px 0 0 25px;
+
+} 
+
+
+
+
+
+/* End Clip Share Full Box */
+
+
+
+/* Clip Share Signup */
+
+#signup form {
+
+    margin: 10px;
+
+    padding: 0px;
+
+}
+
+#signup label, #fullbox label {
+
+    float: left;
+
+    padding: 0 1em;
+
+    text-align: right;
+
+    font: normal 13px  Arial, Helvetica, sans-serif;
+
+    color: #888888;
+
+}
+
+#signup form p {
+
+    margin: 0px;
+
+    padding: 0px;
+
+    font: normal 13px  Arial, Helvetica, sans-serif;
+
+    color: #008ece;
+
+}
+
+
+
+#signup form input.signuptext,#fullbox form input.fullboxtext {
+
+    margin: 0 0 5px 0;
+
+    padding: 2px;
+
+    border: 1px solid #666666;
+
+    background: #393939 url(/images/tpl_input_bg.gif) no-repeat top left;
+
+    font: normal 12px  Arial, Helvetica, sans-serif;
+
+	color: #ccc;
+
+    width: 180px;    
+
+}
+
+
+
+textarea.fullboxtext {
+
+	margin: 0 0 10px 0;
+
+    padding: 6px;
+
+    border: 1px solid #666666;
+
+	
+	color: #ccc;
+
+    font: normal 12px  Arial, Helvetica, sans-serif;
+
+    width: 300px;
+
+}
+
+
+
+#signup form p input.signupbutton {
+
+    margin: 5px 0 0 0;
+
+    padding: 0px;
+
+}
+
+
+
+/* required fields - does not work in IE */
+
+#signup div.fm-req {
+
+    font-weight: bold;
+
+}
+
+
+
+#signup div.fm-req label:before {
+
+    content: "* "; /* does not work in IE */
+
+    color: #CC0000;
+
+}
+
+.captcha {
+
+    float: right;
+
+    width: 400px;
+
+    text-align: center;
+
+    margin-right: 0px;
+
+}
+
+.captcha {
+
+/*  float: right;
+
+    width: 100%;
+
+    text-align: right;
+
+    margin-right: 20px;*/
+
+}
+
+
+
+.signupstatement {
+
+    margin-left: 150px;
+
+    float: left;
+
+}
+
+#signup ul li {
+
+    list-style-image: url(/images/tpl_icon_bullet.gif);
+
+}
+
+.signupbutton {
+
+}
+
+/* End Clip Share Signup */
+
+
+
+/* My Profile */
+
+#myprofile {
+
+    display:block;
+
+    /* width:726px; */
+
+    padding:2px;
+
+    background: #111111;
+
+    border: 1px solid #2f2f2f;
+
+    text-align: left;
+
+}
+
+
+
+#myprofile form {
+
+    margin: 10px;
+
+    padding: 0px;
+
+}
+
+#myprofile fieldset {
+
+    margin: 1em 0;
+
+    border: none;
+
+}
+
+
+
+#myprofile legend {
+
+    margin: 1em 0;
+
+    padding: 0 .5em;
+
+    background: transparent;
+
+    font-size: 19px;
+
+    font-weight: normal;
+	
+	color:#ffba00;
+
+	letter-spacing: -1px;
+
+}
+
+
+
+#myprofile label {
+
+    float: left;
+
+    width: 30%;
+
+    padding: 0 1em;
+
+    text-align: left;
+
+    font-size: 14px !important;
+
+    font-weight: normal;
+
+}
+
+#myprofile form p {
+
+    margin: 0px;
+
+    padding: 0px;
+
+    font: normal 13px  Arial, Helvetica, sans-serif;
+
+    color: #008ece;
+
+}
+
+
+
+#myprofile form input.myprofiletext {
+
+    margin: 0 0 5px 0;
+
+    padding: 2px;
+
+    border: 1px solid #666666;
+
+    background: #393939 url(/images/tpl_input_bg.gif) no-repeat top left;
+
+    /* font: normal 14px  Arial, Helvetica, sans-serif; */
+
+	color: #ccc;
+	
+
+}
+
+#myprofile form textarea.myprofiletext, #fullbox form textarea.inputtext {
+
+	margin: 0 0 10px 0;
+
+    padding: 6px;
+
+    border: 1px solid #666666;
+
+	
+	color: #ccc;
+
+    font: normal 12px  Arial, Helvetica, sans-serif;
+
+    width: 300px;
+
+}
+
+#myprofile form select.myprofiletext {
+
+    margin: 0 0 5px 0;
+
+    padding: 2px;
+
+    border: 1px solid #666666;
+
+    background: #393939 url(/images/tpl_input_bg.gif) no-repeat top left;
+
+    font: normal 12px  Arial, Helvetica, sans-serif;
+
+	color: #ccc;
+
+}
+
+#myprofile form input.myprofilebrowsefile {
+
+    margin: 0 0 5px 0;
+
+    padding: 2px;
+
+    border: 1px solid #666666;
+
+    background: #393939 url(/images/tpl_input_bg.gif) no-repeat top left;
+
+    font: normal 12px  Arial, Helvetica, sans-serif;
+
+	color: #ccc;
+
+
+}
+
+
+
+#myprofile form p input.myprofilebutton{
+
+    margin: 5px 0 0 0;
+
+    padding: 0px;
+
+}
+
+
+
+/* required fields - does not work in IE */
+
+#myprofile div.fm-req {
+
+    font-weight: bold;
+
+}
+
+
+
+#myprofile div.fm-req label:before {
+
+    content: "* "; /* does not work in IE */
+
+    color: #CC0000;
+
+}
+
+.myprofilestatement {
+
+    margin-left: 150px;
+
+    float: left;
+
+}
+
+#myprofile ul li {
+
+    list-style-image: url(/images/tpl_icon_bullet.gif);
+
+}
+
+.myprofilebutton {
+
+    margin-left: 150px;
+
+    padding : 0 0 0 25px;
+
+}
+
+
+
+/* End My Profile */
+
+
+
+/* Clip Share User Menu */
+
+#usermenu p{
+
+    margin: 10px 10px;
+
+    padding: 0 0 0 25px;
+
+}
+
+#usermenu h4 {
+
+    font: normal 19px  Arial, Helvetica, sans-serif;
+
+    color:#ffba00;
+	
+	letter-spacing: -1px;
+
+
+
+}
+
+.mystats {
+
+    margin: 0 0 0 5px;
+
+    float: left;
+
+    width: 250px;
+
+    display: inline;
+
+}
+
+.myinbox {
+
+    margin: 0 0 0 5px;
+
+    float: left;
+
+    width: 210px;
+
+    display: inline;
+
+}
+
+p.myvideostat {
+
+    background: transparent url(/images/tpl_icon_video.gif) no-repeat;
+
+}
+
+p.friends {
+
+    background: transparent url(/images/tpl_icon_friends.gif) no-repeat;
+
+}
+
+p.friendreq {
+
+    background: transparent url(/images/tpl_icon_friend_req.gif) no-repeat;
+
+}
+
+p.watch {
+
+    background: transparent url(/images/tpl_icon_watched.gif) no-repeat;
+
+}
+
+p.visitors {
+
+    background: transparent url(/images/tpl_icon_visitors.gif) no-repeat;
+
+}
+
+p.profile {
+
+    background: transparent url(/images/tpl_icon_profile.gif) no-repeat;
+
+}
+
+p.message {
+
+    background: transparent url(/images/tpl_icon_new_message.gif) no-repeat;
+
+}
+
+
+/* End Clip Share User Menu */
+
+
+
+/* Most Active User */
+
+
+
+ul#mostactiveuser {
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+ul#mostactiveuser li {
+
+    margin: 0;
+
+    float: left;
+
+    list-style-type: none;
+
+    padding: 0 0 0 24px;
+	
+	padding-bottom: 15px;
+
+    text-align: center;
+
+}
+
+ul#mostactiveuser img {
+
+    padding: 1px;
+
+    border: 1px solid #333;
+	
+}
+
+ul#mostactiveuser li.boxshow{
+
+    margin: 0;
+
+    float: left;
+
+    list-style-type: none;
+
+    padding: 0 0 0 20px;
+
+    text-align: center;
+	
+	line-height: 14px;
+
+    height:230px; 
+
+}
+
+ul#mostactiveuser span.title {
+
+	font: normal 13px  Arial, Helvetica, sans-serif;
+
+}
+
+ul#mostactiveuser span.duration {
+
+	font: bold 12px Arial, Helvetica, sans-serif;
+
+}
+
+ul#mostactiveuser span.info {
+
+	color: #888888;
+	  font-size: 12px;
+
+}
+
+/* End Most Active User */
+
+
+
+/* top watched */
+
+/*#topwatched {
+
+
+
+    margin: 10px 0 0 0px;
+
+    height: 230px;
+
+}*/
+
+
+
+/* End top watched */
+
+
+
+p.specialmessage {
+
+    border: 1px solid #333;
+
+    padding: 10px;
+
+    margin: 10px auto;
+
+    font-size: 13px;
+
+    text-align: center;
+
+    background-color: #161616;
+
+}
+
+.navvideo {
+
+    display: inline;
+
+    text-align: right;
+
+    float:left;
+
+}
+
+#fullbox-title .basicdetailed {
+
+    display: inline;
+
+    font: normal 12px  Arial, Helvetica, sans-serif;
+
+    color: #333333;
+
+    letter-spacing: normal;
+
+    margin: 0 40px 0 40px;
+
+    width:100px;
+
+    float:left;
+
+    padding-top:5px;
+
+}
+
+#fullbox-title .basicdetailed a:hover{
+
+    color: #FFFFFF;
+
+}
+
+.titlepage{
+
+    float:left;
+
+}
+
+
+
+.videopaging {
+
+    display: inline;
+
+    width: 200px;
+
+    font: normal 12px  Arial, Helvetica, sans-serif;
+
+    color: #ffffff;
+
+    letter-spacing: normal;
+
+    margin: 0;
+
+    text-align: right;
+
+    float:right;
+
+    padding-top:5px;
+
+    margin-right:10px;
+
+}
+
+#fullbox-title p img {
+
+    margin-right: 5px;
+
+}
+
+#videobox {
+
+    text-align: center;
+
+    margin: 0 auto;
+	font-size: 12px;
+
+}
+
+#tagsbox {
+
+    text-align: justify;
+
+    margin: 0 auto;
+	
+}
+
+#videobox table tr td{
+
+    padding-bottom: 30px;
+
+    padding-left:12px;
+
+}
+
+#videobox img {
+
+    padding: 1px;
+
+    border: 1px solid #333;
+
+}
+
+#videobox img.star {
+
+    border: none;
+
+}
+
+#videobox span.title {
+
+	font: normal 13px  Arial, Helvetica, sans-serif;
+
+}
+
+#videobox span.duration {
+
+	font: bold 12px Arial, Helvetica, sans-serif;
+
+}
+
+#videobox span.info {
+
+	color: #888888;
+	font-size: 12px;
+
+}
+
+.center {
+
+    text-align: center;
+
+}
+
+#paging{
+
+    margin: 0px auto;
+
+    padding: 0px;
+
+    text-align:center;
+
+}
+
+#paging-left{
+
+    width:496px;
+
+}
+
+.pagingnav{
+
+font: normal 12px  Arial, Helvetica, sans-serif;
+
+}
+
+.pagingnav {
+
+/*width: 496px;*/
+
+/*background: url(../img/chromebg.gif) center center repeat-x; /*THEME CHANGE HERE*/
+
+padding: 0;
+
+margin: 0px auto;
+
+line-height: 28px;
+
+text-align: center; /*set value to "left", "center", or "right"*/
+
+}
+
+.pagingnav  {
+
+/*display: inline;*/
+
+padding: 2px;
+
+}
+
+.pagingnav a{
+
+color: #888;
+
+padding: 2px 4px;
+font-size: 18px !important;
+margin: 2px; 
+
+text-decoration: none;
+
+border: 1px solid #333;
+
+background-color: #161616;
+
+display: block:
+
+}
+
+.pagingnav   a:hover{
+
+    text-decoration: none;
+	
+	border: 1px solid #666;
+	
+	color: #fff;
+
+    background-color: #333333;
+
+    font-weight: normal;
+
+}
+
+span.pagingnav {
+
+color: #ff8800;
+font-size: 22px !important;
+padding: 2px 4px;
+
+margin: 2px; 
+
+text-decoration: none;
+
+border: 1px solid #ff8800;
+
+background-color: #161616;
+
+display: block:
+
+}
+
+.replythis {
+
+    background: url(/images/tpl_icon_reply.gif) no-repeat left center;
+
+    padding: 0 80px 0 20px;
+
+    float: right;
+
+    margin-bottom: 10px;
+
+}
+
+.videoplayer {
+
+    margin-left: 1px;
+
+}
+
+.textdesc{
+
+    width:120px;
+
+}
+
+.listchannel, .listchannellarge{
+
+    float:left;
+
+    padding:5px;
+
+    margin-bottom: 5px;
+    font-size: 12px;
+
+}
+
+.listchannellarge{
+
+    width:650px;
+    font-size: 12px;
+
+}
+
+.listchannellarge .imagechannelinfo,.listchannellarge .imagechannel{
+
+    float:left;
+    font-size: 12px;
+
+}
+
+
+
+.listchannellarge .imagechannelinfo{
+
+    padding-left:10px;
+
+    text-align:left;
+
+}
+
+
+
+.listchannellarge .imagechannelinfo .title{
+
+    
+
+}
+
+
+
+.imagechannel a img{
+
+    width:120px;
+
+    height:90px;
+
+}
+.listchannel {
+ border: 0px solid #bdac85;
+    width:155px;
+    font-size: 12px;
+    height:200px;
+
+}
+.listchannellarge .imagechannel a img{
+
+    width:120px;
+
+    height:90px;
+
+}
+.imagechannelhd{
+position:relative;
+    width:120px;
+
+    height:95px;
+
+}
+.png-over{position:absolute; top:6; left:6}
+
+.listchannel .star img,.listchannellarge .star img{
+
+    border:none;
+
+}
+
+
+
+.startratebox{
+
+    height:19px;
+
+    width:120px;
+
+	/*   text-align:center; */
+
+    border:0px solid;
+	
+}
+
+.startratebox img {
+
+    border: 0 !important;
+
+}
+
+
+
+.startratebox2{
+
+    height:19px;
+
+    width:192px; 
+
+    border:0px solid;
+
+}
+
+.startratebox2 img {
+
+    border: 0 !important;
+
+    width:12px;
+
+}
+
+/* group */
+
+ 
+
+#browsegroup-title .videopaging{
+
+
+
+}
+
+.groupdetail{
+
+    float:left;
+
+}
+
+/* end group */
+
+
+
+/* Friends */
+
+.friendlist {
+
+    margin: 0;
+
+    padding: 0;
+
+    float: left;
+
+    display: block;
+
+    border-bottom: 1px solid #eaeaea;
+
+    width: 496px;
+
+}
+
+.friendspict {
+
+    width: 52px;
+
+    margin: 10px 20px 0 10px;
+
+    float: left;
+
+
+
+}
+
+.dropdownviewnav {
+
+    width: 100%;
+
+    display: block;
+
+    float:right;
+
+    text-align: right;
+
+    padding: -5px 10px 10px 0;
+
+}
+
+.friendsaction {
+
+    width: 496px;
+
+}
+
+.selectaction { 
+
+    padding: 10px;
+
+    text-align:right;
+
+}
+
+#myfriends p {
+
+    margin: 0;
+
+    padding: 5px 0 5px 0;
+
+}
+
+.friendstat {
+
+    margin-left: 70px;
+
+}
+
+.friendstat p span {
+
+    padding: 0 30px 0 20px;
+
+}
+
+.friendstat p span.video {
+
+    background: transparent url(/images/tpl_icon_video.gif) no-repeat;
+
+}
+
+
+
+.friendstat p span.flag {
+
+    background: transparent url(/images/tpl_icon_flag.gif) no-repeat;
+
+}
+
+
+
+.friendstat p span.people {
+
+    background: transparent url(/images/tpl_icon_people.gif) no-repeat;
+
+}
+
+/* End Friends */
+
+
+
+/*My Video */
+
+.myvideo {
+
+    margin-top: 10px;
+
+    width: 495px;
+
+    display:block;
+
+    float: left;
+
+}
+
+.videothumb {
+
+    width: 140px;
+
+    display: block;
+
+    float: left;
+
+    text-align: center;
+
+}
+
+.videothumb img {
+
+    padding: 2px;
+
+    border: 1px solid #333;
+
+}
+
+.maindesc {
+
+    width: 320px;
+
+    display: block;
+
+    float: left;
+
+    margin: 0 0 0 10px;
+
+    border-bottom: 1px solid #EEE;
+
+}
+
+.maindescwithoutborder {
+
+    width: 320px;
+
+    display: block;
+
+    float: left;
+
+    margin: 0 0 0 10px;
+
+    border-bottom: none;
+
+}
+
+
+
+.otherdesc {
+
+    width: 320px;
+
+    display: block;
+
+    float: left;
+
+    margin: 0 0 0 140px;
+
+}   
+
+
+
+/* End My Video */
+
+
+
+/* Inbox Outbox */
+
+
+
+.inbox th {
+
+    border-bottom: 3px solid #333333;
+
+    height: 30px;
+
+    background-color: #262626;
+
+    text-align: center;
+	
+	color: #ccc;
+
+}
+
+.inbox td {
+
+    height: 20px;
+
+    padding: 4px 10px 4px 10px;
+
+}
+
+.inbox td.blue {
+
+    background-color: #161616;
+
+    padding: 4px 10px 4px 10px;
+
+}
+
+a.newmail {
+
+    padding-left: 25px;
+
+    background: transparent url(/images/tpl_icon_new_message.gif) no-repeat;
+
+    font-weight:bold;
+
+}
+
+a.openedmail {
+
+    padding-left: 25px;
+
+    background: transparent url(/images/tpl_icon_message.gif) no-repeat;
+
+}
+
+/* End Inbox Outbox*/
+
+
+
+/* Groups */
+
+#groups p {
+
+    margin: 15px 5px;
+
+    padding: 0px;
+
+}
+
+
+
+#groups p span {
+
+    margin: 5px 5px 0 0;
+
+    padding: 0 0 0 18px;
+
+    font-weight: bold;
+
+}
+
+
+
+.group {
+
+    margin-top: 10px;
+
+    width: 496px;
+
+    display:block;
+
+    float: left;
+
+}
+
+.groupthumb {
+
+    width: 140px;
+
+    display: block;
+
+    float: left;
+
+    text-align: center;
+
+    margin: 10px 0 0 0;
+
+}
+
+.groupthumb img {
+
+    padding: 1px;
+
+    border: 1px solid #333;
+
+}
+
+
+
+#groups p span.video {
+
+    background: transparent url(/images/tpl_icon_video.gif) no-repeat;
+
+    letter-spacing: -1px;
+
+}
+
+
+
+#groups p span.topic {
+
+    background: transparent url(/images/tpl_icon_topic.gif) no-repeat;
+
+    letter-spacing: -1px;
+
+}
+
+
+
+#groups p span.people {
+
+    background: transparent url(/images/tpl_icon_people.gif) no-repeat;
+
+    letter-spacing: -1px;
+
+}
+
+
+
+p#grouphome_icon, p#grouppost_icon {
+
+    margin: 15px 5px;
+
+    padding: 0px;
+
+}
+
+
+
+p#grouphome_icon span, p#grouppost_icon span {
+
+    margin: 5px 5px 0 0;
+
+    padding: 0 0 0 18px;
+
+    font-weight: bold;
+
+}
+
+
+
+p#grouphome_icon span.video, p#grouppost_icon span.video {
+
+    background: transparent url(/images/tpl_icon_video.gif) no-repeat;
+
+    letter-spacing: -1px;
+
+}
+
+p#grouphome_icon span.people, p#grouppost_icon span.people {
+
+    background: transparent url(/images/tpl_icon_people.gif) no-repeat;
+
+    letter-spacing: -1px;
+
+}
+
+p#grouppost_icon span.flag {
+
+    background: transparent url(/images/tpl_icon_flag.gif) no-repeat;
+
+    letter-spacing: -1px;
+
+}
+
+p#grouphome_icon span.newpeople {
+
+    background: transparent url(/images/tpl_icon_membernew.gif) no-repeat;
+
+    letter-spacing: -1px;
+
+}
+
+p#grouphome_icon span.newvideo {
+
+    background: transparent url(/images/tpl_icon_videonew.gif) no-repeat;
+
+    letter-spacing: -1px;
+
+}
+
+
+
+
+
+.groupdesc {
+
+    width: 320px;
+
+    display: block;
+
+    float: left;
+
+    margin: 0 0 0 10px;
+
+}
+
+.group-home-desc {
+
+    display: block;
+
+    float: left;
+
+
+
+}
+
+.groupforum-items {
+
+    margin: 0 10px;
+
+}
+
+.group-post-desc {
+
+    display: block;
+
+    float: left;
+
+    width: 550px;
+
+
+
+}
+
+.grouppost-comment {
+
+    border-bottom: 1px solid #EAEAEA;
+
+}
+
+
+
+.divede-box{
+
+    clear:both;
+
+    padding-bottom:20px;
+
+    display:block;
+
+}
+
+/*
+
+form#add_group_topic textarea.fullboxtext{
+
+    width: 300px;
+
+    float: left;
+
+}
+
+.attachvideo {
+
+    width: 300px;
+
+    margin: 0 0 0 20px;
+
+}*/
+
+/*End Group */
+
+
+
+#prevmovie {
+
+    width: 60px;
+
+    float: left;
+	
+	padding-left: 7px;
+	
+	text-align: center;
+
+}
+
+#nextmovie {
+
+    width: 60px;
+	
+	float: left;
+
+    text-align: center;
+	
+
+}
+
+#playmovie {
+
+    width: 60px;
+
+    float: left;
+
+    text-align: center;
+
+}
+
+.relatedvideothumbnail {
+
+	padding-left: 5px;
+
+    width: 60px;
+
+    float: left;
+
+    display: block;
+
+    text-align: center;
+	
+}
+
+.relatedvideodesc {
+
+    width: 100px;
+
+    float: left;
+
+    display: block;
+
+    padding-left: 8px;
+
+    text-align:left;
+	
+	font: normal 12px/14px  Arial, Helvetica, sans-serif;
+
+}
+
+
+#recent1,#recent2,#recent3{
+
+    /*padding-left:16px;*/
+
+    padding: 0 8px;
+
+    width:410px;
+
+    float:left;
+
+}
+
+
+
+.side_results{
+
+    overflow: auto;
+
+    height: 350px;
+
+    width: 400px;
+	
+	display: block;
+	
+}
+
+.boxtable{
+
+    padding-left:30px;
+
+}
+
+
+
+.floatmenu{
+
+    float:left;
+
+    text-align:left;
+
+    background: transparent url(/images/tpl_icon_arrow.gif) no-repeat;
+
+    padding-left:15px;
+	
+	line-height: 14px;
+	font-size: 12px;
+	
+}
+
+
+
+.floatmenu-without-arrow{
+
+    float:left;
+
+    width:125px;
+
+    text-align:left;
+
+    padding-left:15px;
+
+}
+
+
+
+.comment-content{
+
+    word-wrap: break-word ;
+
+    overflow: auto;
+
+    width:300px;
+
+}
+
+
+
+.errorbox{
+
+	border: dotted 1px #FF0000;
+	
+	color: #FF0000;
+
+	font-weight: normal;
+  
+  width: 80%;
+	font-size: 13px;
+	
+	margin-top: 10px;
+	
+	margin-bottom: 15px;
+
+	padding: 3px;
+}
+
+.msgbox{
+
+	border: dotted 1px #009933;
+	
+	color: #009933;
+
+	font-weight: normal;
+	
+	font-size: 13px;
+
+	width:728px;
+	
+	margin-top: 10px;
+	
+	margin-bottom: 15px;
+
+	padding: 3px;
+
+}
+
+
+a.cloudtags {
+
+	text-decoration: none;
+
+	/*border-bottom:dotted 1px #cccccc;*/
+
+	padding: 2px;
+
+	color: #777777;
+
+}
+
+a.cloudtags:hover {
+
+	text-decoration: none;
+
+	border-bottom: none;
+
+	background: #ffba00;
+
+	color: white;
+
+	padding: 2px;
+
+}
+
+/* Display Comments */
+
+.comment-divider {
+
+	border-bottom: dotted 1px #ccc;
+	font-size: 12px;
+	
+}
+
+.comment-image {
+
+	margin: 3px;
+	
+	margin-top: 7px;
+	
+	padding: 1px;
+	
+	border: 1px solid #333;
+
+}
+
+span.comment-info {
+
+	font-size: 12px;
+	
+	color: #888888;
+	
+
+}
+
+div.comment_quote {
+	margin: 10px; 
+	border: 1px dashed #AAAAAA;
+	background: #212020;
+	padding: 10px;
+}
+.comment-body {
+
+	padding: 8px;
+	
+	border: 1px dashed #333333;
+	
+	background: #161616;
+
+}
+
+#videotabcontainer {
+
+    margin: 0 0 0 5px;
+
+    padding: 0px;
+
+    position: relative;
+
+    top: 0px;
+
+    width: 375px;
+
+}
+
+
+
+#videotabcontainer ul {
+
+    margin: 0px;
+
+    padding: 0px;
+
+    list-style-type: none;
+
+    text-align: center;
+
+    font: normal 14px/24px  Arial, Helvetica, sans-serif;
+
+}
+
+
+
+#videotabcontainer li {
+
+    display: inline;
+
+    margin: 0px;
+
+    padding: 0px;
+
+    text-indent: 0px;
+
+}
+
+
+
+#videotabcontainer a {
+
+    float: left;
+
+    display: block;
+
+    width: 110px;
+
+    height: 25px;
+
+    color: #ffffff;
+
+    border: none;
+
+    text-decoration: none;
+
+}
+
+
+
+#videotabcontainer a:link, #videotabcontainer a:visited, #videotabcontainer a:hover, #videotabcontainer li a.tabactive {
+
+    float: left;
+
+    background: transparent url(/images/tpl_videotabs_btn.gif) no-repeat left top;
+
+    background-position: 0% -25px;
+
+}
+
+
+
+#videotabcontainer a:link, #videotabcontainer a:visited {
+
+    background-position: 0% -25px;
+
+}
+
+
+
+#videotabcontainer ul li.tabactive {
+
+    background: transparent url(/images/tpl_videotabs_btn.gif) no-repeat left top;
+
+    background-position: 0% 0px;
+
+    line-height: 24px;
+
+}
+
+
+
+#videotabcontainer a:hover {
+
+    background-position: 0% -50px;
+
+    line-height: 24px;
+
+}
+
+ 
+
+
+
+#videotabcontainer li a.tabactive {
+
+    background-position: 0% 0px;
+
+    line-height: 24px;
+
+}
+
+#floatingflash {
+position:absolute;
+float: left;
+border:1px solid red;
+background:#111001;
+}
+
+#topbar{
+position:absolute;
+border: 1px solid white;
+padding: 2px;
+background-color: #393939;
+width: 400px;
+visibility: hidden;
+z-index: 100;
+}
+
+#viewvideo_hd {
+
+
+    
+        display:block;
+    
+        width:740px;
+    
+        padding:2px;
+        font-size: 12px;
+    
+        background: #111111;
+    
+        border: 1px solid #2f2f2f;
+    
+        margin-bottom: 10px;
+    
+        margin-left: auto;
+    
+    margin-right: auto;
+
+}
+#mymsg{
+font-family: Arial, serif;
+color: #fff;
+     font-size: 15px;
+
+}
+.my_icon{
+    background-image: url("/images/91icon.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+.daren {
+    background-position: 0px -2px;
+    height: 18px;
+    margin-left: 2px;
+    vertical-align: text-bottom;
+    width: 16px;
+}
+.vip {
+    margin-top: 5px !important;
+    background-position: 0px -26px;
+    height: 18px;
+    margin-left: 2px;
+    vertical-align: text-bottom;
+    width: 16px;
+}
+.zhizhun {
+    background-position: 0px -52px;
+    height: 18px;
+    margin-left: 2px;
+    vertical-align: text-bottom;
+    width: 16px;
+}
+.main_comment {
+color:white;
+}

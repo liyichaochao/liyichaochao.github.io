@@ -1,0 +1,138 @@
+
+/*!
+ * AVS Bootstrap Theme / Responsive Media Queries v3.0
+ * http://www.adultvideoscript.com
+ * Based on Bootstrap
+*/
+
+
+
+
+
+	/*==========  Mobile First Method  ==========*/
+
+	/* Custom, iPhone Retina */ 
+	@media only screen and (min-width : 320px) {
+		
+	}
+
+	/* Extra Small Devices, Phones */ 
+	@media only screen and (min-width : 480px) {
+
+
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (min-width : 768px) {
+	
+	body {
+		/* padding-top: 110px; */
+	}
+	
+	.navbar {
+		min-height: 60px;
+	}
+	
+	.navbar-brand {
+		height: 60px;
+	}
+
+	.navbar-inverse .navbar-nav > li > a {
+		font-size: 16px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.navbar-btn {
+		margin-top: 11px;
+		margin-bottom: 11px;
+	}
+
+	.navbar-toggle {
+		margin-top: 13px;
+		margin-bottom: 13px;
+	}
+	
+	.input-group-addon {
+		width: 1%!important;
+	}
+
+	}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (min-width : 992px) {
+
+	}
+
+	/* Large Devices, Wide Screens */
+	@media only screen and (min-width : 1200px) {
+
+	}
+
+
+
+	/*==========  Non-Mobile First Method  ==========*/
+
+	/* Large Devices, Wide Screens */
+	@media only screen and (max-width : 1200px) {
+
+	}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (max-width : 992px) {
+
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (max-width : 768px)  {
+		
+
+	}
+
+	/* Smartphones, Smartphones Landscape, Mini Tablets */	
+	@media only screen and (max-width : 767px) {
+
+	.search-dropdown-menu {
+	  min-width: 296px!important;
+	}
+	
+	.navbar-inverse .navbar-nav > li > a {
+	font-size: 16px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	}	
+	.navbar-inverse .navbar-nav > li {
+	border-bottom: 1px solid rgba(255,255,255,0.05);
+	}		
+	
+	}	
+
+	/* Extra Small Devices, Phones */ 
+	@media only screen and (max-width : 480px) {
+
+	}
+		
+	/* Custom, iPhone Retina */ 
+	@media only screen and (max-width : 320px) {
+	
+	}
+
+	/* Retina-specific stuff here */	
+	@media 
+	(-webkit-min-device-pixel-ratio: 2), 
+	(min-resolution: 192dpi) {
+	.badge {
+		line-height: 18px;
+	}
+	.top-menu ul li .badge {
+		margin-top: 2px;
+	}
+	.label-private {
+		padding: 0px 3px;
+	}
+
+	.hd-text-icon {
+		padding: 0px 3px;
+	}
+	
+	}	

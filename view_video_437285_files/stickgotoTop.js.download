@@ -1,0 +1,10 @@
+        $(window).scroll(function(res){
+            if($(window).scrollTop() > 20){
+                $('.gotop').fadeIn()
+            }else{
+                $('.gotop').fadeOut();
+            }
+        })
+        $('.gotop').click(function(){
+            $('body,html').animate({ scrollTop: 0 }, 300);
+        });

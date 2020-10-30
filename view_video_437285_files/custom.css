@@ -1,0 +1,366 @@
+.pull-left{
+  margin-top: 3px !important;
+}
+.pull-left>form>select {
+  background-color: #232323 !important;
+  color: #888b8c !important;
+}
+
+.pull-left>form>select:hover{
+  color:#fff !important;
+  background-color: #232323 !important;
+}
+.navbar{
+  margin-bottom: 0px !important;
+  border-style: solid;
+}
+body {
+  padding-top: 160px !important;
+  background-color: black !important;
+}
+.submenu {
+  background-color: #232323;
+  color: white;
+}
+.submenu a {
+  padding: 10px 10px !important;
+  font-size: 14px !important;
+  color:#ff8800 !important;
+}
+.submenu a:hover {
+  color:#fff !important;
+}
+.custom-search-button {
+  font-size: 20px;
+}
+.input-group {
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+.video-added {
+  text-align: left;
+  padding-left: 5px;
+}
+.video-title {
+  text-align: left;
+  padding-left: 5px;
+}
+.info-views {
+  padding-left: 5px;
+}
+.video-views {
+  float: none !important;
+  text-align:left;
+}
+
+.well-filters>.pull-left>h4{
+  color: #ff8800 !important;
+}
+.footer-container {
+  background-color: #232323 !important;
+}
+.footer-links {
+  background-color: inherit !important;
+}
+.footer-row {
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+}
+#fullside {
+  width: 100% !important;
+}
+#fullbox {
+  width: 100% !important;
+}
+.videos-text-align {
+  text-align: left !important;
+}
+.videos-text-align span {
+  padding-left: 5px !important;
+}
+
+
+.footer-container {
+  /* position: absolute !important;
+  bottom: 0px !important; */
+}
+
+.video-container {
+  background-color:#fff;
+  padding: 3px;
+}
+
+#useraction {
+  margin-top: 30px !important;
+  width: 100% !important;
+  margin-left: 0px !important;
+}
+.boxPart {
+  display: flex !important;
+  justify-content: space-around !important;
+  flex-wrap: wrap;
+  margin: 5px 30px !important;
+}
+.boxPart>span {
+  min-width: 70px;
+  font-size: 14px !important;
+}
+.video-info-span {
+  color: #ff8800 !important;
+ font-weight: bold;
+}
+.floatmenu {
+  font-size: 13px;
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+#useraction p {
+  margin: 5px !important;
+}
+#videodetails-content {
+  text-align:left !important;
+  font-size: 13px !important;
+}
+.videodetails-yakov {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+.videodetails-title-yakov {
+  background: none !important;
+  /* background-color: #ff8800 !important */
+}
+.title-yakov {
+  color:#ff8800 !important
+}
+.yavko-above-embed-url {
+  margin-bottom: 10px;
+}
+.fullboxtext {
+  width: 90% !important;
+  color: #88888 !important;
+  background: none !important;
+  text-align: left !important;
+}
+#videodetails-content {
+  padding-left: 5% !important;
+}
+.comment-divider {
+  background-color:#161616 !important;
+  margin-bottom: 30px !important;
+}
+.comment-divider td {
+  text-align: left !important;
+}
+.comment-body {
+  color: #fff !important;
+}
+.comment-divider td a {
+  color:#ff8800 !important;
+  font-size: 13px !important;
+}
+.footer-container {
+  /* position: absolute !important;
+  bottom: 0px !important; */
+}
+.login-form {
+  margin: 0 auto !important;
+}
+.login-form>#login {
+  margin: 0 auto !important;
+}
+.login_register_header {
+  background-color: #ff8800 !important;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: #fff;
+  text-align: center !important;
+}
+#loginForm label {
+  margin-bottom: 10px !important;
+  font-size: 13px !important;
+  color:#fff !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+#loginForm input {
+  font-size: 16px !important;
+  width: 80% !important;
+  margin-bottom: 10px !important;
+}
+#loginForm img {
+  margin-bottom: 10px !important;
+}
+.input-button {
+  width: 30% !important;
+}
+.forget-name-ps {
+  font-size: 13px !important;
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+}
+.errorbox {
+  margin: 0 auto !important;
+  margin-bottom: 20px !important;
+}
+#login {
+  margin: 0 auto !important;
+}
+.signupstatement {
+  float:none !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+  margin-bottom: 10px !important;
+}
+.container-minheight {
+  min-height: 400px !important;
+}
+.ccpay-ol {
+  text-align: left;
+}
+.ccpay-ol>ol>li {
+  font-size: 14px !important;
+}
+.vip-form label {
+  text-align: center !important;
+  display:block !important;
+  float: none !important;
+  margin-bottom: 10px !important;
+}
+.vip-form input, .vip-form select {
+  margin-bottom: 20px !important;
+  width: 80% !important;
+}
+.vip-form select {
+  background-color: black;
+  color: white;
+}
+#fullside {
+  max-width: 600px !important;
+  margin: 0 auto !important;
+}
+.vip-image {
+  width: 100% !important;
+}
+.contentbox {
+  text-align: center !important;
+}
+.fm-req>lable {
+  text-align: center !important;
+}
+
+#v-ip-button {
+  width: 30% !important;
+}
+.contact-link a {
+  color: red !important;
+}
+#myprifilelabel {
+  text-align:left;
+  font-size: 14px !important;
+}
+#myprofilevalue {
+  font-size: 13px !important;
+  color: #ff8800;
+}
+fieldset legend {
+  float: none !important;
+}
+fieldset {
+  margin-bottom: 40px !important;
+}
+.myprofileselect {
+  width: 75% !important;
+}
+.mgsbox {
+  margin: 0 auto !important;
+  margin-bottom: 20px !important;
+}
+.text-left {
+  float: left !important;
+  margin-left: 8px !important;
+}
+.fm-opt, .fm-req {
+  overflow:auto !important;
+}
+.control-label {
+  color: #fff !important;
+}
+.edit-style {
+  background: #393939 !important;
+  border: 1px solid #aaa!important;
+  color: #fff !important;
+}
+#captcha_input {
+  margin: 0 0 5px 0 !important;
+  padding: 2px !important;
+  border: 1px solid #666666 !important;
+  background: #393939 url(/images/tpl_input_bg.gif) no-repeat top left;
+  font: normal 12px Arial, Helvetica, sans-serif !important;
+  color: #ccc !important;
+}
+#userinfo {
+  margin-bottom: 30px !important;
+}
+.white-color {
+  color: white !important;
+}
+.fm-req>label {
+  text-align: left !important;
+}
+.custom_back {
+  background-color: #656565 !important;
+}
+@media (max-width: 970px) {
+  .left-side-videos {
+    /* display: none; */
+  }
+}
+.uploadform .warning {
+  margin-bottom: 20px !important;
+}
+@media (max-width: 768px) {
+  .v-ip-button {
+    width:60% !important;
+  }
+  .upload-text .edit-style {
+    margin-left: 5% !important;
+  }
+  .edit-style {
+    width: 90% !important; 
+  }
+  .myprofileselect {
+    width:95% !important;
+  }
+  #login {
+    width: 90% !important;
+  }
+  .container-minheight {
+    min-height: 200px !important;
+  }
+  body {
+    padding-top: 90px !important;
+  }
+  .left-side-videos {
+    /* display: none; */
+  }
+  .showing-class {
+    width: 90% !important;
+  }
+}
+
+.gotop{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    background: #202935;
+    position: fixed;
+    right: 20px;
+    bottom: 80px;
+    z-index: 9999;
+    color: #F2F2F2;
+    font-size: 1.2rem;
+    display: none;
+}

@@ -1,0 +1,6 @@
+.debug {font:16px Arial; background-color:#FFFFFF; border:1px solid #898989; width:700px; height:100px; overflow:auto;}
+.alert {font:18px Arial;}
+.data {background-color:#1d1717; border:1px solid #898989; width:350px;}
+.data tr td {background-color:#1d1717; font:13px Arial; width:35%;}
+.bar1 {background-color:#cccccc; background-image: url('../images/uploadbar_1.gif'); position:relative; text-align:left; height:20px; width:400px; border:1px solid #ccc;}
+.bar2 {background-color:#666666; background-image: url('../images/uploadbar_2.gif'); position:relative; text-align:left; height:20px; width:0%;}
